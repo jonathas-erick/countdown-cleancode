@@ -19,5 +19,41 @@ body {
   border: 2px solid lightgray;
   border-radius: 15px;
   padding: 5vh;
-  margin-top: 20vh;
+}
+.form {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  font-weight: 400;
+  margin: 5px;
+}
+.form input {
+  height: 30vh;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
+.form button {
+  height: 10vh;
+  width: 30vw;
+  border: none;
+  background-color: #dadada;
+  border-radius: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: #2aa6d7;
 }
